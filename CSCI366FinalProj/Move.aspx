@@ -9,6 +9,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>
+            <br />
         </div>
         <asp:GridView ID="GridView1" runat="server">
         </asp:GridView>
