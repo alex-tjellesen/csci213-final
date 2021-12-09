@@ -1,0 +1,63 @@
+INSERT INTO public.type(
+	type_name)
+	VALUES ('Bug');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Dark');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Dragon');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Electric');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Fight');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Fire');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Flying');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Ghost');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Grass');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Ground');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Ice');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Normal');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Poison');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Psychic');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Rock');
+	
+	INSERT INTO public.type(
+	type_name)
+	VALUES ('Water');
