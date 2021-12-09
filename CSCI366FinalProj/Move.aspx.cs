@@ -11,7 +11,7 @@ namespace CSCI366FinalProj
 {
     public partial class Move : System.Web.UI.Page
     {
-        NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;Port=5432;Database=CSCI366FinalProject;User ID=postgres;Password=Bananaslug11");
+        NpgsqlConnection conn = new NpgsqlConnection(Connection.ConnectionString);
 
         protected void Page_Load(object sender, EventArgs e)
         {
