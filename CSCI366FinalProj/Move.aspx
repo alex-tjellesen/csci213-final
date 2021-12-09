@@ -13,7 +13,9 @@
         <asp:GridView ID="GridView1" runat="server">
         </asp:GridView>
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <asp:Button ID="Button1" runat="server" Text="Search by Move Name" OnClick="Button1_Click" />
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Search By Type" />
     </form>
 </body>
 </html>
