@@ -39,13 +39,37 @@ type VARCHAR(255),
 FOREIGN KEY(type) REFERENCES Type(type_name)
 );
 
-CREATE TABLE IF NOT EXISTS Learn
+--CREATE TABLE IF NOT EXISTS Learn
+--(
+--pokemon_index INT,
+--move_name VARCHAR(255),
+--FOREIGN KEY(pokemon_index) REFERENCES Pokemon(pokemon_index),
+--FOREIGN KEY(move_name) REFERENCES Move(move_name),
+--PRIMARY KEY (pokemon_index, move_name),
+--learn_level INT NOT NULL
+--);
+
+CREATE TABLE IF NOT EXISTS Team
 (
-pokemon_index INT,
-move_name VARCHAR(255),
-FOREIGN KEY(pokemon_index) REFERENCES Pokemon(pokemon_index),
-FOREIGN KEY(move_name) REFERENCES Move(move_name),
-PRIMARY KEY (pokemon_index, move_name),
-learn_level INT NOT NULL
+	trainer_id SERIAL PRIMARY KEY,	
+	trainer_name VARCHAR(255) NOT NULL,
+	pokemon1 VARCHAR(255),
+	pokemon1_nickname VARCHAR(255),
+	pokemon2 VARCHAR(255),
+	pokemon2_nickname VARCHAR(255),
+	pokemon3 VARCHAR(255),
+	pokemon3_nickname VARCHAR(255),
+	pokemon4 VARCHAR(255),
+	pokemon4_nickname VARCHAR(255),
+	pokemon5 VARCHAR(255),
+	pokemon5_nickname VARCHAR(255),
+	pokemon6 VARCHAR(255),
+	pokemon6_nickname VARCHAR(255),
+	FOREIGN KEY(pokemon1) REFERENCES Pokemon(pokemon_name),
+	FOREIGN KEY(pokemon2) REFERENCES Pokemon(pokemon_name),
+	FOREIGN KEY(pokemon3) REFERENCES Pokemon(pokemon_name),
+	FOREIGN KEY(pokemon4) REFERENCES Pokemon(pokemon_name),
+	FOREIGN KEY(pokemon5) REFERENCES Pokemon(pokemon_name),
+	FOREIGN KEY(pokemon6) REFERENCES Pokemon(pokemon_name)
 );
 

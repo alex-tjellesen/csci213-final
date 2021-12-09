@@ -1,0 +1,151 @@
+1,Bulbasaur,Seed Pokemon,45,49,49,65,45,grass,poison
+2,Ivysaur,Seed Pokemon,60,62,63,80,60,grass,poison
+3,Venusaur,Seed Pokemon,80,82,83,100,80,grass,poison
+4,Charmander,Lizard Pokemon,39,52,43,50,65,fire,
+5,Charmeleon,Flame Pokemon,58,64,58,65,80,fire,
+6,Charizard,Flame Pokemon,78,84,78,85,100,fire,flying
+7,Squirtle,Tiny Turtle Pokemon,44,48,65,50,43,water,
+8,Wartortle,Turtle Pokemon,59,63,80,65,58,water,
+9,Blastoise,Shellfish Pokemon,79,83,100,85,78,water,
+10,Caterpie,Worm Pokemon,45,30,35,20,45,bug,
+11,Metapod,Cocoon Pokemon,50,20,55,25,30,bug,
+12,Butterfree,Butterfly Pokemon,60,45,50,80,70,bug,flying
+13,Weedle,Hairy Bug Pokemon,40,35,30,20,50,bug,poison
+14,Kakuna,Cocoon Pokemon,45,25,50,25,35,bug,poison
+15,Beedrill,Poison Bee Pokemon,65,80,40,45,75,bug,poison
+16,Pidgey,Tiny Bird Pokemon,40,45,40,35,56,normal,flying
+17,Pidgeotto,Bird Pokemon,63,60,55,50,71,normal,flying
+18,Pidgeot,Bird Pokemon,83,80,75,70,91,normal,flying
+19,Rattata,Mouse Pokemon,30,56,35,25,72,normal,
+20,Raticate,Mouse Pokemon,55,81,60,50,97,normal,
+21,Spearow,Tiny Bird Pokemon,40,60,30,31,70,normal,flying
+22,Fearow,Beak Pokemon,65,90,65,61,100,normal,flying
+23,Ekans,Snake Pokemon,35,60,44,40,55,poison,
+24,Arbok,Cobra Pokemon,60,85,69,65,80,poison,
+25,Pikachu,Mouse Pokemon,35,55,30,50,90,electric,
+26,Raichu,Mouse Pokemon,60,90,55,90,100,electric,
+27,Sandshrew,Mouse Pokemon,50,75,85,30,40,ground,
+28,Sandslash,Mouse Pokemon,75,100,110,55,65,ground,
+29,Nidoran-F,Poison Pin Pokemon,55,47,52,40,41,poison,
+30,Nidorina,Poison Pin Pokemon,70,62,67,55,56,poison,
+31,Nidoqueen,Drill Pokemon,90,82,87,75,76,poison,ground
+32,Nidoran-M,Poison Pin Pokemon,46,57,40,40,50,poison,
+33,Nidorino,PoisonPinPokemon,61,72,57,55,65,poison,
+34,Nidoking,Drill Pokemon,81,92,77,75,85,poison,ground
+35,Clefairy,Fairy Pokemon,70,45,48,60,35,normal,
+36,Clefable,Fairy Pokemon,95,70,73,85,60,normal,
+37,Vulpix,Fox Pokemon,38,41,40,65,65,fire,
+38,Ninetales,Fox Pokemon,73,76,75,100,100,fire,
+39,Jigglypuff,Balloon Pokemon,115,45,20,25,20,normal,
+40,Wigglytuff,Balloon Pokemon,140,70,45,50,45,normal,
+41,Zubat,Bat Pokemon,40,45,35,40,55,poison,flying
+42,Golbat,Bat Pokemon,75,80,70,75,90,poison,flying
+43,Oddish,Weed Pokemon,45,50,55,75,30,grass,poison
+44,Gloom,Weed Pokemon,60,65,70,85,40,grass,poison
+45,Vileplume,Flower Pokemon,75,80,85,100,50,grass,poison
+46,Paras,Mushroom Pokemon,35,70,55,55,25,bug,grass
+47,Parasect,Mushroom Pokemon,60,95,80,80,30,bug,grass
+48,Venonat,Insect Pokemon,60,55,50,40,45,bug,poison
+49,Venomoth,Poison Moth Pokemon,70,65,60,90,90,bug,poison
+50,Diglett,Mole Pokemon,10,55,25,45,95,ground,
+51,Dugtrio,Mole Pokemon,35,80,50,70,120,ground,
+52,Meowth,Scratch Cat Pokemon,40,45,35,40,90,normal,
+53,Persian,Classy Cat Pokemon,65,70,60,65,115,normal,
+54,Psyduck,Duck Pokemon,50,52,48,50,55,water,
+55,Golduck,Duck Pokemon,80,82,78,80,85,water,
+56,Mankey,Pig Monkey Pokemon,40,80,35,35,70,fighting,
+57,Primeape,Pig Monkey Pokemon,65,105,60,60,95,fighting,
+58,Growlithe,Puppy Pokemon,55,70,45,50,60,fire,
+59,Arcanine,Legendary Pokemon,90,110,80,80,95,fire,
+60,Poliwag,Tadpole Pokemon,40,50,40,40,90,water,
+61,Poliwhirl,Tadpole Pokemon,65,65,65,50,90,water,
+62,Poliwrath,Tadpole Pokemon,90,85,95,70,70,water,fighting
+63,Abra,Psi Pokemon,25,20,15,105,90,psychic,
+64,Kadabra,Psi Pokemon,40,35,30,120,105,psychic,
+65,Alakazam,Psi Pokemon,55,50,45,135,120,psychic,
+66,Machop,Superpower Pokemon,70,80,50,35,35,fighting,
+67,Machoke,Superpower Pokemon,80,100,70,50,45,fighting,
+68,Machamp,Superpower Pokemon,90,130,80,65,55,fighting,
+69,Bellsprout,Flower Pokemon,50,75,35,70,40,grass,poison
+70,Weepinbell,Flycatcher Pokemon,65,90,50,85,55,grass,poison
+71,Victreebel,Flycatcher Pokemon,80,105,65,100,70,grass,poison
+72,Tentacool,Jellyfish Pokemon,40,40,35,100,70,water,poison
+73,Tentacruel,Jellyfish Pokemon,80,70,65,120,100,water,poison
+74,Geodude,Rock Pokemon,40,80,100,30,20,rock,ground
+75,Graveler,Rock Pokemon,55,95,115,45,35,rock,ground
+76,Golem,Megaton Pokemon,80,110,130,55,45,rock,ground
+77,Ponyta,FireHorse Pokemon,50,85,55,65,90,fire,
+78,Rapidash,FireHorse Pokemon,65,100,70,80,105,fire,
+79,Slowpoke,Dopey Pokemon,90,65,65,40,15,water,psychic
+80,Slowbro,HermitCrab Pokemon,95,75,110,80,30,water,psychic
+81,Magnemite,Magnet Pokemon,25,35,70,95,45,electric,
+82,Magneton,Magnet Pokemon,50,60,95,120,70,electric,
+83,Farfetchd,WildDuck Pokemon,52,65,55,58,60,normal,flying
+84,Doduo,Twin Bird Pokemon,35,85,45,35,75,normal,flying
+85,Dodrio,Triple Bird Pokemon,60,110,70,60,100,normal,flying
+86,Seel,Sea Lion Pokemon,65,45,55,70,45,water,
+87,Dewgong,Sea Lion Pokemon,90,70,80,95,70,water,ice
+88,Grimer,Sludge Pokemon,80,80,50,40,25,poison,
+89,Muk,Sludge Pokemon,105,105,75,65,50,poison,
+90,Shellder,Bivalve Pokemon,30,65,100,45,40,water,
+91,Cloyster,Bivalve Pokemon,50,95,180,85,70,water,ice
+92,Gastly,Gas Pokemon,30,35,30,100,80,ghost,poison
+93,Haunter,Gas Pokemon,45,50,45,115,95,ghost,poison
+94,Gengar,Shadow Pokemon,60,65,60,130,110,ghost,poison
+95,Onix,Rock Snake Pokemon,35,45,160,30,70,rock,ground
+96,Drowzee,Hypnosis Pokemon,60,48,45,90,42,psychic,
+97,Hypno,Hypnosis Pokemon,85,73,70,115,67,psychic,
+98,Krabby,River Crab Pokemon,30,105,90,25,50,water,
+99,Kingler,Pincer Pokemon,55,130,115,50,75,water,
+100,Voltorb,Ball Pokemon,40,30,50,55,100,electric,
+101,Electrode,Ball Pokemon,60,50,70,80,140,electric,
+102,Exeggcute,Egg Pokemon,60,40,80,60,40,grass,psychic
+103,Exeggutor,Coconut Pokemon,95,95,85,125,55,grass,psychic
+104,Cubone,Lonely Pokemon,50,50,95,40,35,ground,
+105,Marowak,Bone Keeper Pokemon,60,80,110,50,45,ground,
+106,Hitmonlee,Kicking Pokemon,50,120,53,35,87,fighting,
+107,Hitmonchan,Punching Pokemon,50,105,79,35,76,fighting,
+108,Lickitung,Licking Pokemon,90,55,75,60,30,normal,
+109,Koffing,Poison Gas Pokemon,40,65,95,60,35,poison,
+110,Weezing,Poison Gas Pokemon,65,90,120,85,60,poison,
+111,Rhyhorn,Spikes Pokemon,80,85,95,30,25,ground,rock
+112,Rhydon,Drill Pokemon,105,130,120,45,40,ground,rock
+113,Chansey,Egg Pokemon,250,5,5,105,50,normal,
+114,Tangela,Vine Pokemon,65,55,115,100,60,grass,
+115,Kangaskhan,Parent Pokemon,105,95,80,40,90,normal,
+116,Horsea,Dragon Pokemon,30,40,70,70,60,water,
+117,Seadra,Dragon Pokemon,55,65,95,95,85,water,
+118,Goldeen,Goldfish Pokemon,45,67,60,50,63,water,
+119,Seaking,Goldfish Pokemon,80,92,65,80,68,water,
+120,Staryu,Star Shape Pokemon,30,45,55,70,85,water,
+121,Starmie,Mysterious Pokemon,60,75,85,100,115,water,psychic
+122,MrMime,Barrier Pokemon,40,45,65,100,90,psychic,
+123,Scyther,Mantis Pokemon,70,110,80,55,105,bug,flying
+124,Jynx,Human Shape Pokemon,65,50,35,95,95,ice,psychic
+125,Electabuzz,Electric Pokemon,65,83,57,85,105,electric,
+126,Magmar,Spitfire Pokemon,65,95,57,85,93,fire,
+127,Pinsir,Stag Beetle Pokemon,65,125,100,55,85,bug,
+128,Tauros,Wild Bull Pokemon,75,100,95,70,110,normal,
+129,Magikarp,Fish Pokemon,20,10,55,20,80,water,
+130,Gyarados,Atrocious Pokemon,95,125,79,100,81,water,flying
+131,Lapras,Transport Pokemon,130,85,80,95,60,water,ice
+132,Ditto,Transform Pokemon,48,48,48,48,48,normal,
+133,Eevee,Evolution Pokemon,55,55,50,65,55,normal,
+134,Vaporeon,Bubble Jet Pokemon,130,65,60,110,65,water,
+135,Jolteon,Lightning Pokemon,65,65,60,110,130,electric,
+136,Flareon,Flame Pokemon,65,130,60,110,65,fire,
+137,Porygon,Virtual Pokemon,65,60,70,75,40,normal,
+138,Omanyte,Spiral Pokemon,35,40,100,90,35,rock,water
+139,Omastar,Spiral Pokemon,70,60,125,115,55,rock,water
+140,Kabuto,Shellfish Pokemon,30,80,90,45,55,rock,water
+141,Kabutops,Shellfish Pokemon,60,115,105,70,80,rock,water
+142,Aerodactyl,Fossil Pokemon,80,105,65,60,130,rock,flying
+143,Snorlax,Sleeping Pokemon,160,110,65,65,30,normal,
+144,Articuno,Freeze Pokemon,90,85,100,125,85,ice,flying
+145,Zapdos,Electric Pokemon,90,90,85,125,100,electric,flying
+146,Moltres,Flame Pokemon,90,100,90,125,90,fire,flying
+147,Dratini,Dragon Pokemon,41,64,45,50,50,dragon,
+148,Dragonair,Dragon Pokemon,61,84,65,70,70,dragon,
+149,Dragonite,Dragon Pokemon,91,134,95,100,80,dragon,flying
+150,Mewtwo,Genetic Pokemon,106,110,90,154,130,psychic,
+151,Mew,New Species Pokemon,100,100,100,100,100,psychic,
