@@ -1,63 +1,63 @@
 INSERT INTO public.type(
 	type_name)
-	VALUES ('Bug');
+	VALUES ('bug');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Dark');
+	VALUES ('dark');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Dragon');
+	VALUES ('dragon');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Electric');
+	VALUES ('electric');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Fight');
+	VALUES ('fighting');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Fire');
+	VALUES ('fire');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Flying');
+	VALUES ('flying');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Ghost');
+	VALUES ('ghost');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Grass');
+	VALUES ('grass');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Ground');
+	VALUES ('ground');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Ice');
+	VALUES ('ice');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Normal');
+	VALUES ('normal');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Poison');
+	VALUES ('poison');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Psychic');
+	VALUES ('psychic');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Rock');
+	VALUES ('rock');
 	
 	INSERT INTO public.type(
 	type_name)
-	VALUES ('Water');
+	VALUES ('water');

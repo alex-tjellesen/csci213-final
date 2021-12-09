@@ -41,11 +41,11 @@ FOREIGN KEY(type) REFERENCES Type(type_name)
 
 CREATE TABLE IF NOT EXISTS Learn
 (
-pokemon_name VARCHAR(255),
+pokemon_index INT,
 move_name VARCHAR(255),
-FOREIGN KEY(pokemon_name) REFERENCES Pokemon(pokemon_name),
+FOREIGN KEY(pokemon_index) REFERENCES Pokemon(pokemon_index),
 FOREIGN KEY(move_name) REFERENCES Move(move_name),
-PRIMARY KEY (pokemon_name, move_name),
+PRIMARY KEY (pokemon_index, move_name),
 learn_level INT NOT NULL
 );
 
