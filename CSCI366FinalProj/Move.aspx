@@ -16,6 +16,7 @@
         <asp:Button ID="Button1" runat="server" Text="Search by Move Name" OnClick="Button1_Click" />
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Search By Type" />
+        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Order By Power High to Low" />
     </form>
 </body>
 </html>
