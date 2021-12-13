@@ -25,7 +25,7 @@
 &nbsp;|
             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Move.aspx">Moves</asp:HyperLink>
 &nbsp;|
-            <asp:HyperLink ID="HyperLink3" runat="server">Team Builder</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/TeamBuilder.aspx">Team Builder</asp:HyperLink>
         </p>
     </form>
 </body>
