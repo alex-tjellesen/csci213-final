@@ -21,7 +21,7 @@
         <p class="auto-style2">
             Created by Steven Eddy &amp; Alex Tjellesen</p>
         <p class="auto-style2">
-            <asp:HyperLink ID="HyperLink2" runat="server">Pokemon</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pokemon.aspx">Pokemon</asp:HyperLink>
 &nbsp;|
             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Move.aspx">Moves</asp:HyperLink>
 &nbsp;|
