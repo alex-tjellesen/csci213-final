@@ -22,12 +22,12 @@ namespace CSCI366FinalProj
             NpgsqlDataAdapter nda = new NpgsqlDataAdapter(comm);
             DataTable dt = new DataTable();
             nda.Fill(dt);
+            DropDownList1.DataSource = comm.ExecuteReader();
+            DropDownList1.DataTextField = "pokemon_name";
+            DropDownList1.DataBind();
             comm.Dispose();
             conn.Close();
-            DropDownList1.DataSource = dt;
-            DropDownList1.DataBind();
-            //GridView1.DataSource = dt;
-            //GridView1.DataBind();
+
         }
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
