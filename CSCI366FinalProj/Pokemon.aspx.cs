@@ -18,7 +18,7 @@ namespace CSCI366FinalProj
             NpgsqlCommand comm = new NpgsqlCommand();
             comm.Connection = conn;
             comm.CommandType = CommandType.Text;
-            comm.CommandText = "select * from pokemon";
+            comm.CommandText = "select * from pokemon order by pokemon_index";
             NpgsqlDataAdapter nda = new NpgsqlDataAdapter(comm);
             DataTable dt = new DataTable();
             nda.Fill(dt);
