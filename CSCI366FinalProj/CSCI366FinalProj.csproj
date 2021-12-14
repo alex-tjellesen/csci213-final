@@ -203,6 +203,7 @@
     <Content Include="TeamBuilder.aspx" />
     <Content Include="TypeMatchup.aspx" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="viewTeams.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
@@ -291,6 +292,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="viewTeams.aspx.cs">
+      <DependentUpon>viewTeams.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewTeams.aspx.designer.cs">
+      <DependentUpon>viewTeams.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
