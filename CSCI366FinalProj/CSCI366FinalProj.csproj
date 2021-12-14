@@ -201,6 +201,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="TeamBuilder.aspx" />
+    <Content Include="TypeMatchup.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -276,6 +277,13 @@
     </Compile>
     <Compile Include="TeamBuilder.aspx.designer.cs">
       <DependentUpon>TeamBuilder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TypeMatchup.aspx.cs">
+      <DependentUpon>TypeMatchup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TypeMatchup.aspx.designer.cs">
+      <DependentUpon>TypeMatchup.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
