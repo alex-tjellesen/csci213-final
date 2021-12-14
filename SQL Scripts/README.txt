@@ -1,0 +1,1 @@
+Note: sql table creation and insert statements have been included for all but one of the tables. The "Pokemon" table does not have an insert script, as the data was imported via the comma-seperated value file "PokemonData.csv" (included in this folder).
