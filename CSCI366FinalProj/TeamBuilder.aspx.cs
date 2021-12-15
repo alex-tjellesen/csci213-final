@@ -17,17 +17,21 @@ namespace CSCI366FinalProj
         
         protected void Page_Load(object sender, EventArgs e)
         {
-            conn.Open();
-            NpgsqlCommand comm1= new NpgsqlCommand();
-            comm1.Connection = conn;
-            comm1.CommandType = CommandType.Text;
-            comm1.CommandText = "select pokemon_name from pokemon";
-            Pokemon1Dropdown.DataSource = comm1.ExecuteReader();
-            Pokemon1Dropdown.DataTextField = "pokemon_name";
-            Pokemon1Dropdown.DataBind();
-            comm1.Dispose();
-            conn.Close();
-            Label6.Text = "";
+            if(!IsPostBack)
+            {
+                conn.Open();
+                NpgsqlCommand comm1 = new NpgsqlCommand();
+                comm1.Connection = conn;
+                comm1.CommandType = CommandType.Text;
+                comm1.CommandText = "select pokemon_name from pokemon";
+                Pokemon1Dropdown.DataSource = comm1.ExecuteReader();
+                Pokemon1Dropdown.DataTextField = "pokemon_name";
+                Pokemon1Dropdown.DataBind();
+                comm1.Dispose();
+                conn.Close();
+                Label6.Text = "";
+            }
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
