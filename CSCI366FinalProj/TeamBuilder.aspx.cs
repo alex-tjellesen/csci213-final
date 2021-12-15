@@ -14,6 +14,7 @@ namespace CSCI366FinalProj
         NpgsqlConnection conn = new NpgsqlConnection(Connection.ConnectionString);
         static List<String> pokemonForTeam = new List<string>();
         static List<String> nicknamesForTeam = new List<string>();
+        bool initialLoad = false;
         
         protected void Page_Load(object sender, EventArgs e)
         {

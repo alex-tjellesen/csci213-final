@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="viewTeams.aspx.cs" Inherits="CSCI366FinalProj.viewTeams" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ViewTeams.aspx.cs" Inherits="CSCI366FinalProj.ViewTeams" %>
 
 <!DOCTYPE html>
 
@@ -11,6 +11,12 @@
         <div>
             <asp:GridView ID="GridView1" runat="server">
             </asp:GridView>
+            <br />
+            Enter &quot;trainer_id&quot; of team to delete:
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Delete Team" />
+            <br />
         </div>
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/TeamBuilder.aspx">Create Teams</asp:HyperLink>
     </form>
