@@ -27,7 +27,7 @@
 &nbsp;|
             <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/TeamBuilder.aspx">Team Builder</asp:HyperLink>
         &nbsp;|
-            <asp:HyperLink ID="HyperLink4" runat="server">View Teams</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/viewTeams.aspx">View Teams</asp:HyperLink>
 &nbsp;|
             <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/TypeMatchup.aspx">Type Matchup</asp:HyperLink>
         </p>
